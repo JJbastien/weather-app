@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeatherCodeChallenge</string>
+    <string name="error_message">There was an error, please enter the city again</string>
+    <string name="city_name">City Name</string>
+    <string name="look_up">Look up</string>
+    <string name="not_found">Not Found</string>
+    <string name="feels_like">Feels like: -</string>
+    <string name="forecast">Forecast</string>
+</resources>

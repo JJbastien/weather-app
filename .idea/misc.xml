@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/arrow_back_foreground.xml" value="0.31574074074074077" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21965579710144928" />
+        <entry key="app/src/main/res/layout/days_forecast.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_entry_city.xml" value="0.21739130434782608" />
+        <entry key="app/src/main/res/layout/fragment_forecast.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/fragment_weather_details.xml" value="0.335" />
+        <entry key="app/src/main/res/menu/weather_menu.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

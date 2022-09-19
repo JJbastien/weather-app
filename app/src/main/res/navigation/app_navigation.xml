@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/entryCityFragment"
+    android:id="@+id/app_navigation">
+
+    <fragment
+        android:id="@+id/entryCityFragment"
+        android:name="com.JJ.weathercodechallenge.views.EntryCityFragment"
+        android:label="fragment_entry_city"
+        tools:layout="@layout/fragment_entry_city">
+
+        <action
+            android:id="@+id/navigate_from_entryCity_to_forecast"
+            app:destination="@id/forecastFragment" />
+
+    </fragment>
+
+    <fragment android:id="@+id/forecastFragment"
+        android:name="com.JJ.weathercodechallenge.views.ForecastFragment"
+        android:label="fragment_forecast"
+        tools:layout="@layout/fragment_forecast">
+
+        <action
+            android:id="@+id/navigate_from_forecast_to_details"
+            app:destination="@id/weatherDetailsFragment" />
+
+        <action
+            android:id="@+id/navigate_from_forecast_to_entryCity"
+            app:destination="@id/entryCityFragment" />
+
+    </fragment>
+
+    <fragment android:id="@+id/weatherDetailsFragment"
+        android:name="com.JJ.weathercodechallenge.views.WeatherDetailsFragment"
+        android:label="fragment_weather_details"
+        tools:layout="@layout/fragment_weather_details">
+
+    </fragment>
+
+</navigation>
